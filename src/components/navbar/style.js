@@ -1,13 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-export const Main = styled.main`
-    height: 90vh;
-    background-color: #f8002f;
-    background-image: linear-gradient(326deg, #f8002f 0%, #000c14 74%);
-`
-
-export const Navbar = styled.nav`
+export const Navbar_container = styled.nav`
     height: 100px;
     display: flex;
     flex-direction: row;
