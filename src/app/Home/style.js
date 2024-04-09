@@ -74,3 +74,39 @@ export const Button_project = styled.button`
       background-color: rgb(198, 7, 22);
    }
 `
+
+export const About_article = styled.article`
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+`
+
+export const About_section = styled.section`
+  width: 50vw;
+`
+
+export const About_title = styled.h1`
+  font-family: Impact;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+`
+
+export const About_text = styled.label`
+   text-align: center;
+   margin-top: 10px;
+   color: #708090;     display: flex;
+   flex-direction: column;
+   line-height: 23px;
+   font-size: 17px;
+   margin-top: 7px;
+`
+
+export const About_image = styled.div`
+  width: 30vw;
+  height: 50vh;
+  background-color: #c60716;
+  margin: 50px;
+`
